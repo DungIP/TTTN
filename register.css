@@ -1,0 +1,63 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background-image: url(images/hinh-nen-nakroth-thu-nguyen-ve-than-lien-quan-mobile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #bee70a;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 80px;
+    background-color:	rgba(237, 243, 244,0.2) ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #bee70a;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right:  10px ;
+}
+
+input[type=submit]:hover {
+    background-color: #3e8e41;
+}
+.btnDBN{
+
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none
+}
